@@ -109,6 +109,7 @@ body {
     font-family: Verdana;
     font-weight: bold;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .download:hover {
