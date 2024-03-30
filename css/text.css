@@ -1,0 +1,15 @@
+img {
+    float: left;
+    scale: 300%;
+  }
+  
+.data {
+    float: left;
+    padding-left: 60px;
+    font-size: 18px;
+}
+
+.enemy_name_header {
+    float: right;
+    padding-right: 60px;
+}
