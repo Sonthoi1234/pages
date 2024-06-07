@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Special abilities for turrets</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/tables.css">
+        <link rel="icon" href="images/page_icon.png">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="home_page.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Versions
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="versions/1_8_0.html">1.8.0 (official)</a>
+                    <a href="versions/1_8_0-b20240328.html">1.8.0 (march 28th)</a>
+                    <a href="versions/1_6_2.html">1.6.2 (official)</a>
+                    <a href="versions/1_3_0.html">1.3.0 (official)</a>
+                    <a href="version_selector.html">More versions...</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Extras
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="update_logs_tdg.html">TDG update logs</a>
+                    <a href="turret_data.html">Turret data</a>
+                    <a href="enemy_data.html">Enemy data</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <h1 class="title">Special abilities</h1>
+        <div class="content">
+            <p>This page contains all the information about special abilities (for turrets).</p>
+        </div>
+        <table>
+            <tr>
+                <th>Ability name</th>
+                <th>Upgrade name</th>
+                <th>How it works</th>
+                <th>Ability stats</th>
+            </tr>
+            <tr>
+                <td><b>Meteor</b><br>(from Fire turret)<br><img src="images/turrets/fire.svg"></td>
+                <td>Meteor shower<br><img src="images/upgrades/s3-fire_0.svg"></td>
+                <td>A meteor can target a random enemy location on the map.<br>
+                On impact, burns all enemies and deal massive damage.</td>
+                <td>Base damage: 7
+                Increases by 1 every 25 waves</td>
+            </tr>
+            <tr>
+                <td><b>Ice cubes</b><br>(from Snow turret)<br><img src="images/turrets/snow.svg"></td>
+                <td>Raining cubes<br><img src="images/upgrades/s2-snow_0.svg"></td>
+                <td>Cubes can fall on a random location with different sizes.<br>
+                On impact, deals damage (?) and stuns all enemies within it's range.</td>
+                <td>Base damage: ???</td>
+            </tr>
+            <tr>
+                <td><b>Snowstorm</b><br>(from Snow turret)<br><img src="images/turrets/snow.svg"></td>
+                <td>Freezing snowstorm<br><img src="images/upgrades/s3-snow_0.svg"></td>
+                <td>A snowstorm can spawn snowflakes that target random locations.<br>
+                While a snowstorm is happening, all enemies receive double damage.</td>
+                <td>Number of snowflakes spawn: 20</td>
+            </tr>
+            <tr>
+                <td><b>Snowflake</b><br>(from Snow turret)<br><img src="images/turrets/snow.svg"></td>
+                <td>Freezing snowstorm<br><img src="images/upgrades/s3-snow_0.svg"></td>
+                <td>A snowflake can target any random location with different sizes.<br>
+                On impact, applies freezing effect for enemies within it's range
+                (stuns slow enemies such as Strong and all bosses).</td>
+                <td>Base damage: 5</td>
+            </tr>
+            <tr>
+                <td><b>TNT</b><br>(from TNT turret)<br><img src="images/turrets/tnt.svg"></td>
+                <td>Default ability</td>
+                <td>TNTs are placed on the front-most enemy.<br>
+                They explode after, what, 2 seconds? (I never checked again lol).<br>
+                The blast radius is small enough for the damage it does.</td>
+                <td>Base damage: 9
+                Increases by 1 every 15 waves</td>
+            </tr>
+            <tr>
+                <td><b>Crater</b><br>(from TNT turret)<br><img src="images/turrets/tnt.svg"></td>
+                <td>Death crater<br><img src="images/upgrades/s3-tnt_0.svg"></td>
+                <td>The crater freezes enemies regardless if they are cooking steak on their head or not
+                (that's a bad joke).<br>
+                TNTs spawned on craters deal double damage.</td>
+                <td>Spawn duration: 5sec</td>
+            </tr>
+            <tr>
+                <td><b>Cyclone</b><br>(from Cyclone turret)<br><img src="images/turrets/cyclone.svg"></td>
+                <td>Default ability</td>
+                <td>Cyclones travel in the opposite direction from the enemies.<br>
+                Enemies touching the cyclone take constant damage.<br>
+                On a snowstorm, cyclones move at half their speed but deal double damage and last longer.<br>
+                That's why they are hard to use.</td>
+                <td>Spawn duration: 5sec</td>
+            </tr>
+        </table>
+    </body>
+</html>
